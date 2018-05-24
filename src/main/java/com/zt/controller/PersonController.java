@@ -15,7 +15,7 @@ public class PersonController {
 
     @RequestMapping("referPerson")
     public String  referPerson(){
-        System.out.println("i  am  jack ");
+        System.out.println("i  am  jackSon   ");
         return "success";
     }
 
