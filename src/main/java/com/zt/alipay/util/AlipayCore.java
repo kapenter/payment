@@ -34,7 +34,7 @@ public class AlipayCore {
      */
     public static Map<String, String> paraFilter(Map<String, String> sArray) {
 
-        Map<String, String> result = new HashMap<String, String>();
+        Map<String, String> result = new HashMap<>();
 
         if (sArray == null || sArray.size() <= 0) {
             return result;
